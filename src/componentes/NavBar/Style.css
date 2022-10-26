@@ -1,0 +1,15 @@
+.contentAllNav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contentNav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.item{
+    list-style: none;
+    font-size: 1.2rem;
+}
