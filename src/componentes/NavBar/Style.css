@@ -8,8 +8,16 @@
     justify-content: center;
     align-items: center;
     gap: 1rem;
+    margin-bottom: 0;
 }
 .item{
     list-style: none;
     font-size: 1.2rem;
+}
+.item a {
+    text-decoration: none;
+    color: rgb(253, 253, 122);
+}
+.item a:hover{
+    color: rgb(62, 62, 140);
 }

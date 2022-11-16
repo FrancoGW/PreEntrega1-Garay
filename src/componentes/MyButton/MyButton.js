@@ -1,16 +1,19 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './Style.css'
 
 const MyButton = (props) => {
-  console.log(props)
+  
+  let [colorBtn, setColorBtn]= useState("#043d");
 
-  const Styles2 = {backgroundColor: props.color} 
+  // function handleClick(){
+  //   setColorBtn("grey");
+  // }
 
 
   return (
     <>
-        <button style={Styles2} className='btn'>
-          {props.text}
+        <button onClick={props.onClick} style={{backgroundColor: colorBtn, cursor:"pointer"}} className='btn'>
+          {props.children}
         </button>
     </>
   )

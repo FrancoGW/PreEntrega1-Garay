@@ -1,0 +1,36 @@
+.contentStock{
+    display: grid;
+    grid-template-columns:repeat(auto-fill, 250px) ;
+    grid-row-gap: wrap;
+    justify-content: center;
+}
+.card{
+    width:auto;
+    background-color: #fff;
+    box-shadow: 1px 3px #dddd;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.pokemon-img{
+    width: 100%;
+}
+.favorito{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.btn-3{
+    background-color: transparent;
+}
+.Hide{
+    transition: all 300ms;
+}
+ul{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+ul li{
+    list-style: none;
+
+}
